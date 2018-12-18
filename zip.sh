@@ -2,7 +2,7 @@
 get(){
 getfolder=`zip -r $zipna.$formatna $folderna`
 if [[ $getfolder ]]; then
-printf "Mengubah Format Folder Berhasil $1/$2.$3 \n"
+printf "Mengubah Format Folder Berhasil $folderna/$zipna.$formatna \n"
 fi
 }
 read -p "Rename Zip: " zipna;
